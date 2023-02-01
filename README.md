@@ -50,3 +50,11 @@ Let's add [`webpack-dev-server`](https://webpack.js.org/configuration/dev-server
 ```sh
 npm i -D webpack-dev-server
 ```
+
+## Step 4 - Babel
+
+Before we add React, we need to install Babel. Babel is a compiler to transpile code into compatible javascript syntax in current/older browsers. We will use Babel to compile React `JSX`.
+
+```sh
+npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader
+```
