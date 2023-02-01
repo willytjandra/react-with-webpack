@@ -78,3 +78,16 @@ npm i -D typescript @types/react @types/react-dom @babel/preset-typescript
 ```
 
 You should add [`tsconfig.json`](./tsconfig.json) to configure typescript in the project.
+
+## Step 7 - ESLint and Prettier
+
+To improve development experiance further, let's add ESLint and Prettier into our project.
+
+ESLint is responsible for linting our code to find problems and show any errors and warnings. Whereas, Prettier will help in formatting our code.
+
+```sh
+npm i -D prettier eslint
+```
+
+To configure prettier, see [`.prettierrc`](./.prettierrc)
+To configure ESLint, see [`.eslintrc.json`](./.eslintrc.json)

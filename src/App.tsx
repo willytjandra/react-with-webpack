@@ -1,3 +1,3 @@
-const App: React.FC = () => <h1>Hello World from React</h1>;
+const App: React.FC = () => <h1>Hello World from React</h1>
 
-export default App;
+export default App
