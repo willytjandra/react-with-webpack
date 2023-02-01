@@ -40,3 +40,13 @@ npm i -D webpack webpack-cli html-webpack-plugin
 Let's configure webpack, see [`webpack.config.js`](./webpack.config.js).
 
 At this stage, we have a working webpack to bundle our plain javascript and inject it to `index.html`. You can test this by running `npx serve dist`
+
+## Step 3 - Webpack Dev Server
+
+Although we can serve our basic React app using `npx serve dist`, it is not a great developer experience to terminate the process and re-run it everytime changes are made. What we need is an ability to watch for file changes and reload it.
+
+Let's add [`webpack-dev-server`](https://webpack.js.org/configuration/dev-server/) to improve our development experience.
+
+```sh
+npm i -D webpack-dev-server
+```
