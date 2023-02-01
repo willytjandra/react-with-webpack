@@ -31,5 +31,12 @@ touch public/index.html
 Now, we will add webpack into our project:
 
 ```sh
-npm i -D webpack webpack-cli
+npm i -D webpack webpack-cli html-webpack-plugin
 ```
+
+- `webpack` and `webpack-cli` are required to enable webpack support in our project.
+- `html-webpack-plugin` is required to inject bundled javascript (built by webpack) into `index.html`.
+
+Let's configure webpack, see [`webpack.config.js`](./webpack.config.js).
+
+At this stage, we have a working webpack to bundle our plain javascript and inject it to `index.html`. You can test this by running `npx serve dist`
