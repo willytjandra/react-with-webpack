@@ -68,3 +68,13 @@ npm i react react-dom
 ```
 
 That's it!!! Now we have scaffolded basic React application using Webpack.
+
+## Step 6 - Typescript
+
+So far our React app is written in Javascript. It's time to add Typescript support.
+
+```sh
+npm i -D typescript @types/react @types/react-dom @babel/preset-typescript
+```
+
+You should add [`tsconfig.json`](./tsconfig.json) to configure typescript in the project.
