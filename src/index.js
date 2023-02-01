@@ -1,4 +1,7 @@
-const el = document.createElement('div');
-el.innerHTML = 'Hello from JS';
+import { createRoot } from 'react-dom';
+import App from './App';
 
-document.body.append(el);
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(<App />);

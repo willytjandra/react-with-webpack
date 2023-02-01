@@ -58,3 +58,13 @@ Before we add React, we need to install Babel. Babel is a compiler to transpile 
 ```sh
 npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader
 ```
+
+## Step 5 - React
+
+We're finally here. It's time to add React.
+
+```sh
+npm i react react-dom
+```
+
+That's it!!! Now we have scaffolded basic React application using Webpack.
